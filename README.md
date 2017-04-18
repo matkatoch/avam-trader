@@ -1,1 +1,1 @@
-# avam-trader
+# AVAM Trader
