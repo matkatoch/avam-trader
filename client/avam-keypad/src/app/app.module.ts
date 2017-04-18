@@ -6,12 +6,14 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { OrderViewerComponent } from './keypad/order-viewer/order-viewer.component';
 import { ConfigManagerComponent } from './keypad/config-manager/config-manager.component';
+import { MarketLadderComponent } from './market-ladder/market-ladder.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     OrderViewerComponent,
-    ConfigManagerComponent
+    ConfigManagerComponent,
+    MarketLadderComponent
   ],
   imports: [
     BrowserModule,
